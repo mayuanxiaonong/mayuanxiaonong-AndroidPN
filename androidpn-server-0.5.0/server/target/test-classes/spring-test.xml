@@ -29,7 +29,7 @@
 	<bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource"
 		destroy-method="close">
 		<property name="driverClassName" value="org.hsqldb.jdbcDriver" />
-		<property name="url" value="jdbc:hsqldb:C:\\Users\\9527\\IntelliJ Projects\\androidpn-server-0.5.0-src\\server/db/androidpn;shutdown=true" />
+		<property name="url" value="jdbc:hsqldb:C:\\Users\\9527\\IntelliJ Projects\\androidpn\\androidpn-server-0.5.0\\server/db/androidpn;shutdown=true" />
 		<property name="username" value="sa" />
 		<property name="password" value="" />
 		<property name="maxActive" value="${jdbcMaxActive}" />

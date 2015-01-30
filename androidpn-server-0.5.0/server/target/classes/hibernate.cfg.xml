@@ -6,7 +6,7 @@
 	<session-factory>
 		<!-- Database connection settings -->
 		<property name="hibernate.connection.driver_class">org.hsqldb.jdbcDriver</property>
-		<property name="hibernate.connection.url">jdbc:hsqldb:C:\\Users\\9527\\IntelliJ Projects\\androidpn-server-0.5.0-src\\server/db/androidpn;shutdown=true</property>
+		<property name="hibernate.connection.url">jdbc:hsqldb:C:\\Users\\9527\\IntelliJ Projects\\androidpn\\androidpn-server-0.5.0\\server/db/androidpn;shutdown=true</property>
 		<property name="hibernate.connection.username">sa</property>
 		<property name="hibernate.connection.password"></property>
 

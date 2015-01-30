@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="androidpn-server-0.5.0">
+    <output-path>$PROJECT_DIR$/out/artifacts/androidpn_server_0_5_0</output-path>
+    <root id="archive" name="androidpn-server-0.5.0.jar">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/androidpn-server-0.5.0/server/target/MANIFEST.MF" />
+      </element>
+      <element id="directory" name="org">
+        <element id="dir-copy" path="$PROJECT_DIR$/androidpn-server-0.5.0/server/target/classes/org" />
+      </element>
+    </root>
+  </artifact>
+</component>
