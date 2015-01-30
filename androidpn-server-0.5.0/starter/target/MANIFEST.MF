@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Package: starter
+Implementation-Version: 0.5.0
+Built-By: 9527
+Implementation-Vendor-Id: org.androidpn
+Created-By: IntelliJ IDEA
+Build-Jdk: 1.7.0_15
+Main-Class: org.androidpn.server.starter.ServerStarter
+
