@@ -4,13 +4,16 @@
     <root id="root">
       <element id="directory" name="bin">
         <element id="dir-copy" path="$PROJECT_DIR$/androidpn-server-0.5.0/server/src/main/bin" />
+        <element id="directory" name="db">
+          <element id="dir-copy" path="$PROJECT_DIR$/androidpn-server-0.5.0/server/db" />
+        </element>
       </element>
       <element id="directory" name="conf">
         <element id="dir-copy" path="$PROJECT_DIR$/androidpn-server-0.5.0/server/src/main/conf" />
         <element id="dir-copy" path="$PROJECT_DIR$/androidpn-server-0.5.0/server/src/main/resources" />
       </element>
       <element id="directory" name="console">
-        <element id="artifact" artifact-name="console:war exploded" />
+        <element id="artifact" artifact-name="console" />
       </element>
       <element id="directory" name="lib">
         <element id="library" level="project" name="Maven: commons-codec:commons-codec:1.4" />

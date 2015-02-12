@@ -114,6 +114,7 @@ public class StanzaHandler {
         }
 
         String tag = doc.getName();
+        log.debug("tag = " + tag);
         if ("starttls".equals(tag)) {
             if (negotiateTLS()) { // Negotiate TLS
                 startedTLS = true;
@@ -124,10 +125,8 @@ public class StanzaHandler {
         } else if ("message".equals(tag)) {
             processMessage(doc);
         } else if ("presence".equals(tag)) {
-            log.debug("presence...");
             processPresence(doc);
         } else if ("iq".equals(tag)) {
-            log.debug("iq...");
             processIQ(doc);
         } else {
             log.warn("Unexpected packet tag (not message, iq, presence)"
