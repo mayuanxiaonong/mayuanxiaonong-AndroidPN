@@ -346,6 +346,7 @@ public class XmppManager {
                         if (packet instanceof IQ) {
                             IQ response = (IQ) packet;
                             if (response.getType() == IQ.Type.ERROR) {
+                                Log.e("RegisterTask.PacketListener", response.getError().toString());
                                 if (!response.getError().toString().contains(
                                         "409")) {
                                     Log.e(LOGTAG,
